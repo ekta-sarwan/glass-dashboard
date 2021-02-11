@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right bottom,#D9D8F9,#F7E2D0,#DFEAF4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.glass{
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: rgba(255,255,255,0.4);
+    border-radius: 2rem;
+    border: 1px solid white;
+    backdrop-filter: blur(20rem);
+    
+}
